@@ -66,7 +66,7 @@ export default function HeroSection() {
                 Студия Баланс
               </p>
               <h1 className="text-4xl font-light text-white md:text-5xl lg:text-6xl">
-                Надежда <span className="font-normal">Политова</span>
+                Надежда Политова
               </h1>
               <p className="mt-3 text-lg font-light text-white/70 md:text-xl">
                 Гид по здоровью, питанию и красоте
