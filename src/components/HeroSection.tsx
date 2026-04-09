@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 
 const images = [
@@ -8,12 +9,10 @@ const images = [
   'https://cdn.poehali.dev/projects/337dc164-289e-470a-b86f-ee41c74ec18d/files/ad527787-967f-4a30-ad8b-bb3572ff9c73.jpg',
 ];
 
-const services = [
-  { icon: '✂️', label: 'Стрижки и окрашивание' },
-  { icon: '🧘', label: 'Йога и аэро-йога' },
-  { icon: '🪷', label: 'Гвоздестояние' },
-  { icon: '🎵', label: 'Массаж тибетскими чашами' },
-  { icon: '🥗', label: 'Нутрициологическая поддержка' },
+const sections = [
+  { icon: '✂️', label: 'Внешняя красота', sub: 'Стрижки и окрашивание', href: '/beauty' },
+  { icon: '🧘', label: 'Телесные практики', sub: 'Йога, гвозди, массаж', href: '/body' },
+  { icon: '🌿', label: 'Здоровье', sub: 'Блог и нутрициология', href: '/health' },
 ];
 
 export default function HeroSection() {
@@ -92,14 +91,16 @@ export default function HeroSection() {
                 isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
               )}
             >
-              <div className="flex flex-wrap gap-2">
-                {services.map((s) => (
-                  <span
+              <div className="flex flex-wrap gap-3">
+                {sections.map((s) => (
+                  <Link
                     key={s.label}
-                    className="flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm font-light text-white/80 backdrop-blur-sm"
+                    to={s.href}
+                    className="flex flex-col gap-0.5 rounded-2xl border border-white/20 bg-white/10 px-5 py-3 backdrop-blur-sm transition-all hover:border-amber-400/60 hover:bg-white/15"
                   >
-                    {s.icon} {s.label}
-                  </span>
+                    <span className="text-sm font-medium text-white">{s.icon} {s.label}</span>
+                    <span className="text-xs font-light text-white/50">{s.sub}</span>
+                  </Link>
                 ))}
               </div>
             </div>
