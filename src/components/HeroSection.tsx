@@ -63,7 +63,7 @@ export default function HeroSection() {
               )}
             >
               <p className="mb-2 text-sm font-light uppercase tracking-[0.3em] text-amber-300/80">
-                Баланс
+                Студия Баланс
               </p>
               <h1 className="text-4xl font-light text-white md:text-5xl lg:text-6xl">
                 Надежда <span className="font-normal">Политова</span>
