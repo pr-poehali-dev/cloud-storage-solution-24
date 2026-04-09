@@ -116,7 +116,7 @@ export default function HeroSection() {
                   href="tel:+79115856046"
                   className="inline-flex items-center justify-center rounded-full bg-amber-500 px-8 py-3 text-sm font-medium text-stone-900 transition-all hover:bg-amber-400 hover:shadow-lg hover:shadow-amber-500/30"
                 >
-                  Записаться на приём
+                  Записаться
                 </a>
                 <div className="flex flex-col gap-1">
                   <span className="text-sm text-white/60">8 911 585 60 46 — Надежда</span>
