@@ -12,7 +12,7 @@ const images = [
 const sections = [
   { icon: '✂️', label: 'Внешняя красота', sub: 'Стрижки и окрашивание', href: '/beauty' },
   { icon: '🧘', label: 'Телесные практики', sub: 'Йога, гвозди, массаж', href: '/body' },
-  { icon: '🌿', label: 'Здоровье', sub: 'Блог и нутрициология', href: '/health' },
+  { icon: '🌿', label: 'Здоровье', sub: 'Информационный блог и нутрициология', href: '/health' },
 ];
 
 export default function HeroSection() {
