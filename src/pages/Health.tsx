@@ -51,7 +51,7 @@ export default function Health() {
             <p className="mb-6 text-sm text-stone-500">Полезные материалы о здоровом питании и образе жизни. Читайте в наших сообществах:</p>
             <div className="flex flex-wrap gap-3">
               <a
-                href="https://vk.com/"
+                href="https://vk.com/npolitovabalans"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-full border border-stone-200 bg-white px-5 py-2.5 text-sm font-medium text-stone-700 shadow-sm transition-all hover:border-amber-400 hover:text-stone-900"
