@@ -61,10 +61,10 @@ export default function HeroSection() {
                 isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
               )}
             >
-              <p className="mb-2 text-sm font-light uppercase tracking-[0.3em] text-amber-300/80">
+              <p className="mb-2 text-2xl font-light uppercase tracking-[0.3em] text-amber-300/80 md:text-3xl">
                 Студия Баланс
               </p>
-              <h1 className="text-4xl font-light text-white md:text-5xl lg:text-6xl">
+              <h1 className="text-xl font-light text-white md:text-2xl lg:text-3xl">
                 Надежда Политова
               </h1>
               <p className="mt-3 text-lg font-light text-white/70 md:text-xl">
