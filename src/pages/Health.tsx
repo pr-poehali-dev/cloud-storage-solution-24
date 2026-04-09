@@ -60,7 +60,7 @@ export default function Health() {
                 ВКонтакте
               </a>
               <a
-                href="https://max.ru/"
+                href="https://max.ru/join/OYuLBcpZcY4F4KPWsEzD8_PZMJkkakU982OyPEqDCAc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-full border border-stone-200 bg-white px-5 py-2.5 text-sm font-medium text-stone-700 shadow-sm transition-all hover:border-amber-400 hover:text-stone-900"
